@@ -15,8 +15,15 @@
 5. To train the model, run `python train.py`. Note: while training, you may get warnings regarding no inertial data for link. This warning can be ignored. 
 6. To simulate the model, run `python eval.py`.
 7. To generate graphs from the simulation, run `python graph.py`.
-8. All the environments are present in the `envs` folder. 
+8. All the environments are present in the `envs` folder.
 
+Note: If you want to train using the Agilicious params, go to `envs\quadx_base_env.py`, put `from agilicious_quadrotor.agilicious import Agilicious `. Then, in `begin_reset()` function, add
+```
+drone_map = dict()
+drone_map["agilicious"] = Agilicious
+```
+Then replace drone_type in the Aviary initialisation to "agilicious". 
+ 
 ## PID Control
 Implemented in Matlab. 
 
