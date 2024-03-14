@@ -7,7 +7,7 @@
   `envs`: folder contains the environment with obstacles. 
 
 ### Steps to run the code
-1. Make a python environment using `python -m venv /path/to/new/virtual/environment`. 
+1. Make a python environment using `python -m venv /path/to/new/virtual/environment` and activate the environment. 
 2. Install `requirements.txt` from this repository. 
 3. Install the dependencies using `pip install -r requirements.txt`
 4. Download the submitted code.
