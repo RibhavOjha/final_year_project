@@ -8,11 +8,11 @@
 
 ### Steps to run the code
 1. Make a python environment using `python -m venv /path/to/new/virtual/environment` and activate the environment. 
-2. Install `requirements.txt` from this repository. 
+2. Install `requirements.txt` from this repository. Note: If you get an OS error for Windows Long Path, ignore it. The code will work. 
 3. Install the dependencies using `pip install -r requirements.txt`
 4. Download the submitted code.
-5. Go in the `Reinforcement Learning` folder.
-6. To train the model, run `python train.py`.
+5. Go to the `Reinforcement Learning` folder.
+6. To train the model, run `python train.py`. Note: while training, you may get warnings regarding no inertial data for link. This warning can be ignored. 
 7. To simulate the model, run `python eval.py`.
 8. To generate graphs from the simulation, run `python graph.py`.
 9. All the environments are present in the `envs` folder. 
