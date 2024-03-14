@@ -7,6 +7,7 @@
   `envs`: folder contains the environment with obstacles. 
 
 ### Steps to run the code
+1. Make a python environment using `python -m venv /path/to/new/virtual/environment`
 1. Install the dependencies using `pip install -r requirements.txt`
 2. Download the submitted code.
 3. Go in the `Reinforcement Learning` folder.
